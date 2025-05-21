@@ -1,4 +1,4 @@
-dictionary = ["below","below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
+dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 
 # turn each index of array into a string
@@ -19,5 +19,5 @@ def substrings(str, array)
 hash
 end
 
-
+puts substrings("below", dictionary)
 puts substrings("Howdy partner, sit down! How's it going?", dictionary)
